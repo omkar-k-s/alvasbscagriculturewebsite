@@ -16,7 +16,7 @@ const data: DeptPageProps = {
       </>
     ),
     subtitle:
-      "A 4-year AICTE-approved engineering programme bridging agricultural production and food processing — covering food chemistry, microbiology, processing engineering, packaging, and quality assurance.",
+      "A 4-year professional degree programme bridging agricultural production and food processing — covering food chemistry, microbiology, processing engineering, value addition, Nutraceutical, packaging, and quality assurance.",
     pills: [
       { value: "4 Years", label: "Duration" },
       { value: "60", label: "Seats" },
@@ -28,25 +28,25 @@ const data: DeptPageProps = {
   /* ─── ABOUT ─── */
   about: {
     mainImage: "/ai.png",
-    badge1: { label: "CFTRI Collaboration", sub: "Technical Guidance" },
-    badge2: { label: "95% Placement", sub: "Top Food Industries" },
-    mainDescription: "The B.Tech. in Food Technology at Alva's is a dynamic program designed to master the chemistry and engineering of food. We combine theoretical knowledge with extensive hands-on experience in our state-of-the-art laboratories. Our graduates are industry-ready professionals, capable of innovating in food safety, processing, and preservation to meet the growing global demand for high-quality and sustainable nutritional solutions.",
+    badge1: { label: "CFTRI Collaboration", sub: "TECHNICAL GUIDANCE" },
+    badge2: { label: "95% Placement", sub: "TOP FOOD INDUSTRIES" },
+    mainDescription: "The B.Tech. in Food Technology at Alva's is a dynamic program designed to master the Bio- chemistry and engineering of food. We combine theoretical knowledge with extensive hands-on experience in our state-of-the-art laboratories. Our graduates are industry-ready professionals, capable of innovating in food safety, processing, value addition, quality assurance, packaging and preservation to meet the growing global demand for high-quality and sustainable nutritional solutions.",
     cards: [
       {
         icon: "🏭",
         title: "Programme Overview",
-        body: "The B.Tech Food Technology programme at Alva's Institute bridges agricultural production with the food processing industry. It is a 4-year undergraduate engineering degree, AICTE approved and UAS Dharwad affiliated, covering food chemistry, microbiology, processing engineering, packaging, quality assurance, and food regulatory affairs.",
+        body: "The B.Tech Food Technology programme at Alva's Institute bridges agricultural production with the food processing industry. It is a 4-year undergraduate degree programme, affiliated KSNUAHS, Shivamogga, covering food chemistry, microbiology, processing engineering, packaging, quality assurance, and food regulatory affairs.",
         wide: true,
       },
       {
         icon: "🔬",
         title: "State-of-the-Art Labs",
-        body: "Students access food processing pilot plants, spray dryers, freeze dryers, packaging analysis equipment, sensory evaluation panels, and HACCP-certified microbiology laboratories.",
+        body: "Students access food processing pilot plants, spray dryers, freeze dryers, bakery unit, packaging analysis equipment, sensory evaluation panels, and HACCP-certified microbiology laboratories",
       },
       {
         icon: "🤝",
         title: "Industry Internships",
-        body: "Mandatory 2-month industry internship in Year 4 with MoU-linked companies like Nestlé, ITC, Britannia, and regional FSSAI-approved food testing labs.",
+        body: "Mandatory five months industry internship in the final semester with MoU-linked companies like CAMPCO, CFTRI, Nestlé, ITC, Britannia, and regional FSSAI-approved food testing labs.",
       },
     ],
     stats: [
@@ -76,12 +76,12 @@ const data: DeptPageProps = {
       name: "Sharanbasava",
       role: "Assistant Professor",
       photo: "/SHARANA BASAPPA.jpeg",
-      tags: ["Farm Machinery", "Power Engineering", "M.Tech."],
+      tags: ["AGRICULTURE ENGINEERING", "ASSISTANT PROFESSOR", "M.Tech"],
       designation: "Assistant Professor",
       email: "sharanb@aiet.org.in",
       joiningDate: "28.08.2025",
       education: [
-        "M.Tech. (Farm Machinery and Power Engineering)"
+        "M.Tech. (Agriculture Engineering)"
       ],
       interests: [
         "Teaching and Research"
@@ -97,7 +97,7 @@ const data: DeptPageProps = {
       name: "Dr. Rahul Phatak",
       role: "Senior Assistant Professor",
       photo: "/RAHUL.jpeg",
-      tags: ["Horticulture", "Natural Farming", "Ph.D."],
+      tags: ["POST HARVEST ENGINEERING", "HORTICULTURE", "NATURAL FARMING"],
       designation: "Senior Assistant Professor",
       email: "rahulp@aiet.org.in",
       joiningDate: "20.11.2023",
@@ -174,7 +174,7 @@ const data: DeptPageProps = {
       name: "Dr. Yamagar S. G.",
       role: "Senior Assistant Professor",
       photo: "/Yamagar.png",
-      tags: ["Farm Machinery", "Precision Farming", "Ph.D."],
+      tags: ["AGRICULTURE ENGINEERING"],
       designation: "Senior Assistant Professor",
       email: "ysujitrao@aiet.org.in",
       joiningDate: "21.09.2025",
@@ -211,6 +211,52 @@ const data: DeptPageProps = {
         "Generation of Energy from Waste"
       ],
       projects: "02"
+    },
+    {
+      name: "Mr. Terence Rodrigues",
+      role: "Professor & HoD",
+      photo: "/Mr. Terence Rodrigues.jpg",
+      tags: ["FOOD PRODUCTION", "BAKERY", "HOD", "PROFESSOR"],
+      designation: "Professor & HoD",
+      email: "rodriguesterence4570@alvascollege.com",
+      joiningDate: "01.04.2021",
+      education: [
+        "M.Sc in Hotel Management (Annamalai University)",
+        "M.A in Tourism Management (Madurai Kamaraj University)",
+        "P.G Diploma in H.R.M (Karanataka State Open University)",
+        "Bachelors In Hotel Management (Mangalore University)"
+      ],
+      experience: [
+        "21 years of Teaching experience + 10 Years Industrial Experience",
+        "Professor & HoD, Dept of Hospitality Science at Alva’s College, Moodabidre (April 2021 – Present)",
+        "Teacher, MoE, Maldives (1 Year) — B-Tech in Hospitality & Tourism",
+        "Principal, Pana Institute of U.G Studies, Mangalore (2 Years)",
+        "Principal, Moti Mahal College of Hotel Management, Mangalore (2.5 Years)",
+        "Assistant Professor, Sarosh Institute of Hotel Administration, Mangalore (10 Years)",
+        "Lecturer, Moti Mahal College of Hotel Management (1 Year)",
+        "Chef & Corporate Trainer, Crown & Champa Resorts, Maldives (2015)",
+        "Chef, Hotel Prestige, Mangalore (2001 – 2004)",
+        "Chef, Hotel Moti Mahal (1998 – 2001)",
+        "Chef, Four Season’s Resort (1995 – 1998)"
+      ],
+      interests: [
+        "Cooking",
+        "Spice Plantation (Pepper, Nutmeg, etc.)"
+      ],
+      achievements: [
+        "Chairperson, Board of Studies, Alva’s College (Autonomous) Dept of Hospitality Science",
+        "Chairperson, Board of Examinees, Alva’s College (Autonomous) Dept of Hospitality Sc.",
+        "Member, Board of Studies, Mangalore University, Dept of Hospitality Science",
+        "Chairperson, Board of Examinees, Mangalore University, Dept of Hospitality Science",
+        "External Examiner for Food Production Practicals at Yenepoya University",
+        "External Examiner for Food Production Practicals at NITTE University"
+      ],
+      subjects: [
+        "Food Production",
+        "Bakery & Confectionery",
+        "F&B Management"
+      ],
+      projects: "Industrial Training projects as a project guide"
     },
   ],
 

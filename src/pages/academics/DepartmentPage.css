@@ -647,8 +647,15 @@
    ============================================ */
 .dp-staff-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .dp-staff-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 .dp-staff-card {
@@ -672,7 +679,7 @@
 /* Photo area */
 .dp-staff-avatar {
   width: 100%;
-  height: 280px;
+  aspect-ratio: 4/5;
   margin: 0;
   border-radius: 0;
   border: none;
@@ -694,47 +701,59 @@
 }
 
 .dp-staff-card-body {
-  padding: 24px;
-  text-align: left;
+  padding: 16px 12px;
+  text-align: center;
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .dp-staff-name {
   font-family: 'Playfair Display', serif;
-  font-size: 1.25rem;
+  font-size: 0.82rem;
   font-weight: 800;
   color: var(--dp-primary-dark);
-  margin-bottom: 6px;
-  line-height: 1.2;
+  margin-bottom: 4px;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 100%;
+  min-height: 2.6em; /* Ensures 2 lines of space for alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dp-staff-role {
   display: block;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   color: var(--dp-accent);
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+  min-height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dp-staff-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   margin-top: auto;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .dp-staff-tag {
   display: inline-block;
-  padding: 4px 12px;
+  padding: 3px 8px;
   background: #f1f5f9;
   color: #475569;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 700;
   text-transform: uppercase;
 }

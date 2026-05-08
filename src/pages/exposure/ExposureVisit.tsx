@@ -72,6 +72,7 @@ const partners = [
     { icon: "🌿", name: "Karnataka Agri Dept." }, { icon: "🏛️", name: "KVK Centres" },
     { icon: "🌱", name: "Organic Farms" },        { icon: "🏭", name: "Agro Food Units" },
     { icon: "🌳", name: "Forest Dept." },         { icon: "🐄", name: "KMF – Nandini" },
+    { icon: "🚜", name: "Progressive farmer’s fields" },
 ];
 
 const ExposureVisit = () => (

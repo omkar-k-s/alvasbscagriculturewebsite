@@ -16,7 +16,7 @@ const data: DeptPageProps = {
       </>
     ),
     subtitle:
-      "A 4-year ICAR honours programme covering agronomy, horticulture, soil science, plant pathology, entomology, and agricultural economics — designed to build skilled, research-ready agricultural professionals.",
+      "A 4-year Professional degree programme with ICAR structured syllabus covering soil science, seed science and technology, agronomy, genetics and plant breeding, plant pathology, entomology, Biotechnology, horticulture and agricultural economics — designed to build skilled, research-ready agricultural professionals.",
     pills: [
       { value: "4 Years", label: "Duration" },
       { value: "60", label: "Seats" },
@@ -28,30 +28,30 @@ const data: DeptPageProps = {
   /* ─── ABOUT ─── */
   about: {
     mainImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=1200",
-    badge1: { label: "1st in Costal Karnataka", sub: "Private Agri College" },
-    badge2: { label: "K.S.N.U.A.H.S.,Shivamogga Affiliated", sub: "Top University" },
-    mainDescription: "Established in 2025, our B.Sc. (Hons) Agriculture program is committed to producing the next generation agricultural leaders. We bridge the gap between traditional farming wisdom and modern technological advancements. Our curriculum is designed as per the 5th dean committee Syllabus Approved by Indian Council of Agricultural Research (ICAR) ,NEW DELHI in order to provide students with a deep understanding of soil heath, crop / seed production, control of pest and diseases, organic farming and sustainable management practices, ensuring they are well-equipped to tackle real-world agricultural challenges.",
+    badge1: { label: "1st in Costal Karnataka", sub: "PRIVATE AGRI COLLEGE" },
+    badge2: { label: "K.S.N.U.A.H.S.,Shivamogga Affiliated", sub: "TOP UNIVERSITY" },
+    mainDescription: "Established in 2025, our B.Sc. (Hons) Agriculture program is committed to producing the next generation agricultural leaders. We bridge the gap between traditional farming wisdom and modern technological advancements. Our curriculum is designed as per the 6th Dean Committee Syllabus approved by the Indian Council of Agricultural Research (ICAR), New Delhi in order to provide students with a deep understanding of soil heath, crop / seed production, control of pest and diseases, organic farming and sustainable management practices, ensuring they are well-equipped to tackle real-world agricultural challenges.",
     cards: [
       {
         icon: "🌾",
         title: "Programme Overview",
-        body: "The B.Sc. (Hons) Agriculture is the flagship UG offering of Alva's Institute of Agricultural Sciences & Technology. It follows the ICAR 5th Dean's Committee curriculum ensuring national-standard quality across all agricultural universities in India.",
+        body: "The B.Sc. (Hons) Agriculture is the flagship UG degree programme offered by the Alva’s Institute of Agricultural Sciences & Technology adopting the ICAR 6th Dean Committee curriculum ensuring national-standard quality and uniformity across all the Agricultural Universities in India.",
         wide: true,
       },
       {
         icon: "✨",
         title: "Skill Enhancement Courses",
-        body: "Specifically designed modules to build practical expertise in niche areas like Apiculture, Mushroom Cultivation, Nursery Management, and Organic Input production, enhancing student employability.",
+        body: "Specifically designed modules to build practical expertise in niche areas like Apiculture, Mushroom Cultivation, Nursery Management, seed production and Organic Input production, enhancing student employability.",
       },
       {
         icon: "🔬",
         title: "Hands-on Learning",
-        body: "Students receive training through farm practicals, field visits, crop production experiments, and internships at Krishi Vigyan Kendras (KVKs).",
+        body: "Students receive training through farm practicals, field visits, crop production experiments, and internships at leading Public / Private Institutes across the State.",
       },
       {
         icon: "🚀",
         title: "Experiential Learning (ELP)",
-        body: "In Year 4, every student runs a real agri-enterprise — mushroom cultivation, nursery management, vermicomposting, or dairy units — under faculty mentorship.",
+        body: "In the 4thYear, every student runs a real agri-enterprise — mushroom cultivation, Apiculture, nursery management, vermicomposting, or dairy / poultry units, bio fertilizer / bio agents production — under faculty mentorship.",
       },
     ],
     stats: [
@@ -214,6 +214,119 @@ const data: DeptPageProps = {
         "Bio-fertilizers and Bio-pesticides"
       ]
     },
+    {
+      name: "Dr. Raghavendra Rao. B",
+      role: "Associate Professor",
+      photo: "/Dr. Raghavendra Rao. B.png",
+      tags: ["BIOTECHNOLOGY", "MICROBIOLOGY", "ASSOCIATE PROFESSOR", "RESEARCH"],
+      designation: "Associate Professor",
+      email: "raghavendra@alvascollege.com",
+      joiningDate: "2015",
+      education: [
+        "Ph.D in Agricultural Microbiology (2002) – University of Agricultural Sciences, GKVK, Bangalore",
+        "M.Sc in Agricultural Microbiology (1997) – University of Agricultural Sciences, Dharwad",
+        "B.Sc in Agriculture (1995) – University of Agricultural Sciences, Bangalore"
+      ],
+      experience: [
+        "Associate Professor, Post Graduate Department of Biotechnology, Alva’s College Moodbidri (2015 – Present)",
+        "Associate Professor, Dept. of Healthcare Sciences, Sikkim Manipal University (2014 – 2015)",
+        "Assistant Professor, Dept. of Healthcare Sciences, Sikkim Manipal University (2009 – 2014)",
+        "HoD, Department of Biotechnology, Alva’s College Moodbidri (2003 – 2009)",
+        "Lecturer, Department of Microbiology, M. S Ramiah First Grade College, Bangalore (2001 – 2002)",
+        "Lecturer, Seshadripuram First Grade College, Bangalore (2000 – 2001)",
+        "Lecturer, UAS, GKVK, Bangalore (1999 – 2000)",
+        "Assistant Professor of Microbiology, Sericulture College, Chintamani (1997 – 1999)"
+      ],
+      interests: [
+        "Agricultural Microbiology",
+        "Biotechnology",
+        "Soil Health",
+        "Composting",
+        "Plant Growth Promotion"
+      ],
+      achievements: [
+        "Served as Chairman, BOE in Biotechnology, Mangalore University",
+        "Served as HoD, Department of Biotechnology, Alva’s College Moodbidri",
+        "Best Research Paper Award at National Symposium on Mycology, Plant Pathology and Biotechnology",
+        "Manipal Global Excellence Award for Best Academician (2012-13)",
+        "Two Spot Awards by Manipal Global Education Services",
+        "Resource Person for workshops on Bioinformatics and Research Methodologies",
+        "Represented University of Agricultural Sciences in South Zone Youth Festival"
+      ],
+      subjects: [
+        "Microbiology",
+        "Biotechnology",
+        "Biochemistry",
+        "Plant Biotechnology",
+        "Immunology",
+        "Bioinformatics"
+      ],
+      projects: [
+        "MSc Biotechnology Projects Guided: 56",
+        "BSc Biotechnology Projects Guided: 47",
+        "PhD Students Under Supervision: 04"
+      ],
+      others: [
+        "Fellowship: Junior Research Fellowship – Sanosil India Ltd.",
+        "Fellowship: UAS Merit Fellowship",
+        "Fellowship: Junior Research Fellowship – NORAD, Norway",
+        "Fellowship: Senior Research Fellowship – DST, New Delhi",
+        "Patent (2024): Novel protocol for high-yield extraction of secondary metabolites from Trichoderma spp",
+        "Patent (2025): Plant growth promoting microbes for enhancing plant rooting and associated method"
+      ]
+    },
+    {
+      name: "Dr. Rahul Phatak",
+      role: "Senior Assistant Professor",
+      photo: "/RAHUL.jpeg",
+      tags: ["POST HARVEST ENGINEERING", "HORTICULTURE", "NATURAL FARMING"],
+      designation: "Senior Assistant Professor",
+      email: "rahulp@aiet.org.in",
+      joiningDate: "20.11.2023",
+      education: [
+        "Ph.D. (Horticulture) [UHS, Bagalkot, 2018]",
+        "M.Sc. (Horticulture) — University Gold Medalist"
+      ],
+      experience: [
+        "Senior Assistant Professor, Dept. of Agricultural Engineering, Alva's Institute of Engineering and Technology, Moodbidri (Nov 2023 – Present)",
+        "Research Associate, Natural Farming Project at CoH, Sirsi, UHS, Bagalkot — 4 Years (with UG teaching)",
+        "Graduate Assistant at KRCCH, Arabhavi, UHS, Bagalkot — 1 Year",
+        "Assistant Professor of Horticulture at AEEC, Koppal, UAS, Raichur — 1 Year"
+      ],
+      interests: [
+        "Horticulture",
+        "Plantation, Spices, Medicinal and Aromatic Crops",
+        "Organic Farming",
+        "Natural Farming"
+      ],
+      achievements: [
+        "Holds three patents (Design Registrations).",
+        "INSPIRE Fellow, Dept. of Science and Technology, Govt. of India for Ph.D.",
+        "University Gold Medal for securing first rank in M.Sc. Horticulture.",
+        "Yuva Vigyani Award from Karnataka Science Federation."
+      ],
+      memberships: [
+        "Life Member of 'Institute of Scholars'"
+      ],
+      publications: "Research Articles (16), Review Articles (01), Book Chapters (03), Conference Presentations (15), Popular Articles (09), Extension Folders (04), Radio Programs (02), TV Program (01)",
+      subjects: [
+        "Horticulture",
+        "Post-Harvest Engineering",
+        "Agriculture Process Engineering",
+        "Agro-chemicals",
+        "Research Methodology & IPR",
+        "Fundamentals of Agriculture",
+        "Sustainable Agriculture",
+        "Micro-irrigation Engineering",
+        "Entrepreneurship Development"
+      ],
+      projects: "04 (As Project Guide)",
+      others: [
+        "University Blue in Debate.",
+        "Research Excellence Award - 2021 from Institute of Scholars.",
+        "Reviewer for a journal, University representation in NSS-National Integration Camp."
+      ]
+    },
     
   ],
 
@@ -224,7 +337,7 @@ const data: DeptPageProps = {
       bg: "rgba(22,163,74,0.15)",
       title: "Kisan Mela — Farmer Fair",
       description:
-        "Annual farmer fair connecting students with local farmers to exchange knowledge on modern crop varieties, organic inputs, and government scheme awareness. Over 500 farmers participate each year.",
+        "Annual farmer fair connecting students with local farmers to exchange knowledge on modern crop varieties, organic inputs, and government scheme awareness. Over 5 lakh farmers participate each year.",
       tag: "Annual Event",
     },
     {
